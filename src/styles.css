@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.content-input {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: min-content;
+}
+
+.image-content {
+    border-radius: 40px;
+    padding: 25px;
+}

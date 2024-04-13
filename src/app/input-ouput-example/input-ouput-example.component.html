@@ -37,26 +37,20 @@
 
         <br>
 
-        <div class="content-input" style="text-align: center;">
+        <div class="content-input">
             @if (input) {
-            <p>El decorador Input permite que un componente padre pase datos a un componente hijo a través de una
-                vinculación de propiedades. Se utiliza para marcar una propiedad en el componente hijo como una
-                propiedad de entrada, que luego puede ser vinculada a un valor en el componente padre.</p>
+            <p>Decorador que marca un campo de clase como propiedad de entrada y proporciona metadatos de configuración. La propiedad de entrada está vinculada a una propiedad DOM en la plantilla. Durante la detección de cambios, Angular actualiza automáticamente la propiedad de datos con el valor de la propiedad DOM</p>
             <br>
             <div class="input-example">
-                <img src="../../assets/input.png" style="border-radius: 20px; padding: 25px;" alt="" srcset="">
+                <img src="../../assets/input.png" class="image-content" alt="" srcset="">
             </div>
             }
             @if(ouput) {
-            <p>El decorador Output permite que un componente hijo emita eventos a su componente padre. Se utiliza para
-                marcar
-                una propiedad en el componente hijo como una propiedad de salida, que puede emitir eventos que el
-                componente
-                padre puede escuchar.</p>
+            <p>Decorador que marca un campo de clase como propiedad de salida y proporciona metadatos de configuración. La propiedad DOM vinculada a la propiedad de salida se actualiza automáticamente durante la detección de cambios.</p>
             <br>
             <button class="button local" (click)="emit()">Emitir Mensaje</button>
             <div class="input-example">
-                <img src="../../assets/ouput.png" style="border-radius: 20px; padding: 25px;" alt="" srcset="">
+                <img src="../../assets/ouput.png" class="image-content" alt="" srcset="">
             </div>
             }
 
