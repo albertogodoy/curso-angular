@@ -1,0 +1,8 @@
+@if (receivedMessage) {
+<hr>
+<p style="text-align: center;">Component Padre</p>
+<h4 style="text-align: center;">He recibido un mesaje: <b>{{ receivedMessage }}</b></h4>
+<hr>
+}
+
+<app-input-ouput-example (messageEvent)="onReceivedMessage($event)"></app-input-ouput-example>
