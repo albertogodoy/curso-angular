@@ -11,10 +11,10 @@ import { RouterLink } from '@angular/router';
 export class NgforExampleComponent {
 
   items = [
-    {name:'Jose', age: '21'},
-    {name:'Maria', age: '24'},
-    {name:'Alberto', age: '26'},
-    {name:'Michael', age: '19'},
+    {id: 1, name:'Jose', age: '21'},
+    {id: 2, name:'Maria', age: '24'},
+    {id: 3, name:'Alberto', age: '26'},
+    {id: 4, name:'Michael', age: '19'},
   ]
 
 }
